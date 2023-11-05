@@ -75,11 +75,11 @@ header img#logo {
 body div {
     text-align: center;
     background-color: grey;
-    height: 490px;
+    height: 50vh;
     padding-top: 230px;
     font-family: var(--font-principal);
-    background-image: url(../imagens/pizzaria-hero-fundo01.jpg);
-    
+    background-image: url('../imagens/pizzaria-hero-fundo01.jpg');
+    background-position: left center;
 }
 
 div img {
