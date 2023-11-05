@@ -45,7 +45,7 @@ header nav {
     text-align: right;
     min-width: 500px;
     max-width: 1530px;
-    padding-top: 10px;
+    padding-top: 10px;  
 }
 
 header a {
@@ -79,6 +79,7 @@ body div {
     padding-top: 230px;
     font-family: var(--font-principal);
     background-image: url(../imagens/pizzaria-hero-fundo01.jpg);
+    
 }
 
 div img {
