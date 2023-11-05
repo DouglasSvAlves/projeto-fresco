@@ -78,6 +78,7 @@ body div {
     height: 490px;
     padding-top: 230px;
     font-family: var(--font-principal);
+    background-image: url(../imagens/pizzaria-hero-fundo01.jpg);
 }
 
 div img {
