@@ -42,6 +42,7 @@ header {
 }
 
 header nav {
+    position: relative;
     text-align: right;
     min-width: 500px;
     max-width: 1530px;
@@ -67,9 +68,9 @@ a#contato {
 
 header img#logo {
     position: absolute;
-    top: 43px;
-    left: 33px;
-    margin: auto;
+    top: 1%;
+    left: 3%;
+    transform: translate(5%, 1%);
 }
 
 body div {
