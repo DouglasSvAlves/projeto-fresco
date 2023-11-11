@@ -131,7 +131,7 @@ main section p#h3 {
 }
 
 section#horario {
-    background-image: url(imagens/foto-horario-pq.jpg);
+    background-image: url(imagens/foto-horario2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,4 +310,46 @@ main > section#cardapio > a {
     padding: 15px 50px;
     margin-top: 30px;
     border-radius: 5px;
+}
+
+main > div#fotoHH {
+    background-image: url(imagens/foto-happy.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92vw;
+    height: 250px;
+    margin: auto;
+    margin-top: 65px;
+}
+
+
+main > section#happyH > i {
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 50px;
+}
+
+main > section#happyH > p {
+    font-family: var(--font-principal);
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 15px;
+}
+
+main > section#happyH > h1 {
+    font-family: var(--font-logo);
+    color: var(--cor2);
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.3em;
+    margin: 15px;
+}
+
+main > section#happyH > h2 {
+    font-family: var(--font-principal);
+    text-align: center;
+    font-size: 2em;
 }
