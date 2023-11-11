@@ -216,7 +216,7 @@ main > section#historia > a {
 main > section#cardapio {
     background-color: var(--cor0);
 
-    height: 1200px;
+    height: 1000px;
     margin-top: 80px;
 }
 
@@ -261,6 +261,7 @@ main > section#cardapio > h3 {
     padding-left: 170px;
     margin-top: -30px;
     padding-bottom: 100px;
+    margin-right: 150px;
 }
 
 main > section#cardapio > p {
@@ -270,8 +271,32 @@ main > section#cardapio > p {
     color: var(--cor3);
     top: -90px;
     padding-left: 170px;
+    margin-right: 150px;
 }
 
 main > section#cardapio > p.preco {
+    font-family: var(--font-principal);
+    color: var(--cor2);
+    font-size: 2em;
+    font-weight: bolder;
     text-align: right;
+    margin-right: 40px;
+    margin-top: -50px;
+}
+
+main > section#cardapio > a {
+    display: block;
+    text-decoration: none;
+    font-family: var(--font-principal);
+    background-color: var(--cor1);
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    width: 230px;
+    height: 15px;
+    padding: 15px 50px;
+    margin-top: 30px;
+    border-radius: 5px;
 }
