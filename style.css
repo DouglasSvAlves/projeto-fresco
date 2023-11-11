@@ -93,7 +93,7 @@ main div#cab {
     margin-bottom: 70px;
 }
 
-main div section {
+main div#cab section {
     background-color: rgba(46, 46, 46, 0.39);
     height: 315px;
 }
@@ -171,7 +171,7 @@ main div#pizza {
     background-repeat: no-repeat;
     background-size: cover;
     width: 85vw;
-    height: 625px;
+    height: 895px;
     margin: 40px;
 }
 
@@ -350,6 +350,143 @@ main > section#happyH > h1 {
 
 main > section#happyH > h2 {
     font-family: var(--font-principal);
+    color: var(--cor3);
     text-align: center;
-    font-size: 2em;
+    font-weight: 600;
+    font-size: 1.6em;
+    margin: 25px;
+}
+
+main >section#happyH > a {
+    display: block;
+    text-decoration: none;
+    font-family: var(--font-principal);
+    font-size: 0.9em;
+    color: var(--cor1);
+    text-align: center;
+    margin: 40px;
+}
+
+main > section#happyH > a:hover {
+color: var(--cor3);
+transition: 0.3s;
+}
+
+main > section#depoimentos > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FCE5DE;
+    font-size: 16em;
+    transform: scale(-1, 1); /* Inverte/Espelha o texto*/
+}
+
+main > section#depoimentos > h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-logo);
+    color: var(--cor2);
+    font-weight: normal;
+    font-size: 1.9em;
+    margin-top: -140px;
+}
+
+main > section#depoimentos > div.depimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+}
+
+main > section#depoimentos > div.depimg > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+main > section#depoimentos > p {
+    font-family: var(--font-principal);
+    text-align: center;
+    color: #464543;
+    font-size: 1.1em;
+    line-height: 30px;
+    margin: 0px 80px;
+}
+
+main > section#depoimentos > p.depnome {
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+main > section#depoimentos > p.depsocial {
+    color: #8d8c88;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+main > div#imgtel {
+    background-color: rgb(255, 255, 255);
+    background-image: url(imagens/telefone.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 570px;
+    margin-top: 130px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.411);
+}
+
+main > div#imgtel > section {
+    background-color: rgba(46, 46, 46, 0.863);
+    height: 570px;
+}
+
+
+main > div#imgtel > section > i#telefone {
+    position: relative;
+    color: var(--cor1);
+    text-align: center;
+    font-size: 3.5em;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(270deg); /*Para usar mais de um transform e preciso juntar eles e separar com espaços, se colocar uma virgula não funciona*/
+}
+
+
+main > div#imgtel > section> p {
+    position: relative;
+    font-family: var(--font-logo);
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    top: 32%;
+}
+
+main > div#imgtel > section > p#tel {
+    font-family: var(--font-principal);
+    font-weight: bolder;
+    font-size: 5em;
+}
+
+footer {
+    background-color: #464543;
+    border-top: 1px solid white;
+    height: 30px;
+}
+
+footer > p {
+    color: white;
+    font-family: var(--font-principal);
+    text-align: center;
+    padding-top: 8px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+footer > p > a:hover {
+    color: rgba(0, 0, 0, 0.781);
+    transition: 0.3s;
 }
