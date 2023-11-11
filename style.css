@@ -105,6 +105,7 @@ main section p#h1 {
 }
 
 main section img {
+    user-select:none;
     margin-bottom: -53px;
 }
 
@@ -213,6 +214,11 @@ main > section#historia > a {
     padding-left: 45px;
 }
 
+main > section#historia > a:hover {
+    color: var(--cor3);
+    transition: 0.3s;
+}
+
 main > section#cardapio {
     background-color: var(--cor0);
 
@@ -251,6 +257,7 @@ main > section#cardapio > img.catalago {
     width: 100px;
     padding-top: 10px;
     padding-left: 55px;
+    user-select:none;
 }
 
 main > section#cardapio > h3 {
