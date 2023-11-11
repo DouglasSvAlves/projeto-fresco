@@ -22,6 +22,10 @@
     padding: 0px;
 }
 
+p::selection , h1::selection , h2::selection , h3::selection, a::selection  { /*Faz a seleção ficar com cor*/
+    background: var(--cor1);
+    color: var(--cor3);
+}
 
 header div {
     background-color: white;
