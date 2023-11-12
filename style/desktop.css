@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+:root {
+    --cor0: #FFFAF2;
+    --cor1: #FF8800;
+    --cor2: #C66300;
+    --cor3: #292827;
+
+    --font-principal: 'Josefin Sans', sans-serif;
+    --font-logo: 'Berkshire Swash', serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+span#close, span#menu {
+    display: none;
+}
+
+menu#itens {
+    display: block;
+}
+
+header > menu#itens > ul > li#contato { /*Ele está aqui em cima por conta do script de retirar ele no mobile*/
+    display: inline;
+    background-color: var(--cor1);
+    padding: 11px 40px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-right: 30px;
+}
+
+header > div#redesocial {
+    background-color: var(--cor1);
+    height: 27px;
+}
+
+header > div#redesocial > section {
+    text-align: right;
+    max-width: 1250px;
+    margin: auto;
+}
+
+header > div#redesocial > section > img {
+    width: 17px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+header > div#redesocial > section > img#instagram {
+    margin-right: 25px;
+}
+
+header > menu#itens {
+    text-align: right;
+    height: 49px;
+    margin-top: -48px;
+    box-shadow: none;
+}
+
+header > menu#itens > ul {
+    max-width: 1250px;
+    margin: auto;
+}
+
+header > menu#itens > ul > li{
+    display: inline;
+    border: none;
+    background-color: white;
+    font-size: 1.1em;
+}
+
+header > menu#itens > ul > li#contato > a {
+    color: white;
+}
+
+header > div {
+    height: 75px;
+    margin: auto;
+}
+
+header > div > section {
+    min-width: 250px;
+    max-width: 300px;
+    text-align: right;
+}
+
+header > div > a {
+    
+}
