@@ -192,14 +192,14 @@ main div#pizza {
     margin: 40px;
 }
 
-main > section#historia > p#cima {
+main > div#grade section#historia > p#cima {
     font-family: var(--font-principal);
     font-weight: 600;
     font-size: 1.1em;
     padding: 20px 45px;
 }
 
-main > section#historia > h1 {
+main > div#grade > section#historia > h1 {
     font-family: var(--font-logo);
     color: var(--cor2);
     font-weight: normal;
@@ -208,7 +208,7 @@ main > section#historia > h1 {
     padding-bottom: 10px;
 }
 
-main > section#historia > h2 {
+main > div#grade section#historia > h2 {
     font-family: var(--font-secundaria);
     color: var(--cor3);
     font-size: 2.2em;
@@ -227,7 +227,7 @@ main section#historia > p {
     line-height: 25px;
 }
 
-main > section#historia > a {
+main > div#grade > section#historia > a {
     text-decoration: none;
     font-family: var(--font-principal);
     font-size: 0.9em;
@@ -235,26 +235,25 @@ main > section#historia > a {
     padding-left: 45px;
 }
 
-main > section#historia > a:hover {
+main > div#grade > section#historia > a:hover {
     color: var(--cor3);
     transition: 0.3s;
 }
 
-main > section#cardapio {
+main > div#bgcardapio {
     background-color: var(--cor0);
-
-    height: 1000px;
-    margin-top: 80px;
+    height: 1200px;
+    margin-top: 120px;
 }
 
-main > section#cardapio img.folha {
+main > div#bgcardapio > section#cardapio img.folha {
     display: block;
     margin: auto;
     padding-top: 70px;
     width: 130px;
 }
 
-main > section#cardapio > h1 {
+main > div#bgcardapio > section#cardapio > h1 {
     font-family: var(--font-logo);
     font-size: 1.6em;
     font-weight: normal;
@@ -264,7 +263,7 @@ main > section#cardapio > h1 {
     padding-bottom: 10px;
 }
 
-main > section#cardapio > h2 {
+main > div#bgcardapio > section#cardapio > h2 {
     font-family: var(--font-principal);
     font-size: 1.9em;
     color: var(--cor3);
@@ -274,35 +273,36 @@ main > section#cardapio > h2 {
     padding-bottom: 55px;
 }
 
-main > section#cardapio > img.catalago {
+main > div#bgcardapio > section#cardapio > div#d01 > img.catalago, main > div#bgcardapio > section#cardapio > div#d02 > img.catalago {
     width: 100px;
     padding-top: 10px;
     padding-left: 55px;
     user-select:none;
 }
 
-main > section#cardapio > h3 {
+
+main > div#bgcardapio > section#cardapio > div#d01 > h3, main > div#bgcardapio > section#cardapio > div#d02 > h3 {
     font-family: var(--font-principal);
     color: var(--cor3);
     font-size: 1.3em;
     font-weight: 600;
     padding-left: 170px;
     margin-top: -30px;
-    padding-bottom: 100px;
-    margin-right: 150px;
+    margin-bottom: 100px; 
+    margin-right: 110px;
 }
 
-main > section#cardapio > p {
+main > div#bgcardapio > section#cardapio > div#d01 > p, main > div#bgcardapio > section#cardapio > div#d02 > p {
     position: relative;
     font-family: var(--font-principal);
     font-size: 0.9em;
     color: var(--cor3);
     top: -90px;
     padding-left: 170px;
-    margin-right: 150px;
+    margin-right: 115px;
 }
 
-main > section#cardapio > p.preco {
+main > div#bgcardapio > section#cardapio > div#d01 > p.preco, main > div#bgcardapio > section#cardapio > div#d02 > p.preco  {
     font-family: var(--font-principal);
     color: var(--cor2);
     font-size: 2em;
@@ -312,20 +312,26 @@ main > section#cardapio > p.preco {
     margin-top: -50px;
 }
 
-main > section#cardapio > a {
-    display: block;
+
+main > div#bgcardapio > div#cardapiolink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+main > div#bgcardapio > div#cardapiolink > a {
+
     text-decoration: none;
     font-family: var(--font-principal);
     background-color: var(--cor1);
     color: white;
     font-size: 0.9em;
     font-weight: bold;
-    margin: auto;
     text-align: center;
     width: 230px;
     height: 15px;
     padding: 15px 50px;
-    margin-top: 30px;
     border-radius: 5px;
 }
 

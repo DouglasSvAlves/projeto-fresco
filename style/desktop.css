@@ -136,24 +136,104 @@ main > div#cab > section > p#h3 {
     font-size: 1.9em;
 }
 
-main > section#horario {
+main > div#grade {
+    max-width: 1200px;
+    margin: auto;
+}
+
+main > div#grade > section#horario {
+    display: inline-block;
     width: 30%;
+    height: 50%;
+    margin: auto;
+    margin-right: 20px;
     float: right;
 }
 
-main > section#horario div {
+main > div#grade > section#horario div {
+    display: inline-block;
     width: 100%;
     float: right;
 }
 
+main > div#grade > div#pizza {
+    display: inline-block;
+    width: 30%;
+    height: 600px;
+    margin: auto;
+    background-size: contain;
+}
+
+main > div#grade > section#historia {
+    display: inline-block;
+    width: 35%;
+    margin: auto;
+    margin-right: 17px;
+    float: left;
+}
+
+main > div#grade > section#historia > p, main > div#grade > section#historia > a {
+    font-size: 1em;
+}
+
+main > div#bgcardapio {
+    height: 800px;
+}
+
+main > div#bgcardapio > section#cardapio {
+    max-width: 1200px;
+    margin: auto;
+}
+
+main > div#bgcardapio > section#cardapio > h1 {
+    font-size: 3.1em;
+}
+
+main > div#bgcardapio > section#cardapio > div#d01 {
+    width: 50%;
+    margin: auto;
+    float: left;
+}
+
+main > div#bgcardapio > section#cardapio > div#d02 {
+    width: 50%;
+    float: right;
+    margin: auto;
+}
+
+main > div#bgcardapio > div#cardapiolink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1100px) {
     header > div > a > img {
-        margin-left: 30px;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1500px){
+    main > div#bgcardapio > div#cardapiolink {
+        margin-top: 300px;
+    }
+
+    main > div#bgcardapio {
+        height: 725px;
     }
 }
 
 @media screen and (min-width: 1500px) {
     header > div > a > img {
         margin-left: 250px;
+    }
+
+    main > div#bgcardapio > div#cardapiolink {
+        margin-top: 300px;
+    }
+
+    main > div#bgcardapio {
+        height: 725px;
     }
 }
