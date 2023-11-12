@@ -151,10 +151,19 @@ main > div#grade > section#horario {
     float: right;
 }
 
-main > div#grade > section#horario div {
+main > div#grade > section#horario > div {
     display: inline-block;
     width: 100%;
     float: right;
+}
+
+main > div#grade > section#horario > div > p#hora {
+    padding-top: 450px;
+    font-size: 3em;
+}
+
+main > div#grade > section#horario > div > p {
+    font-size: 1.1em;
 }
 
 main > div#grade > div#pizza {
