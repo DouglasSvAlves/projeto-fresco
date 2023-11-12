@@ -14,9 +14,9 @@
     <header>
         <div id="redesocial">
             <section>
-                <img src="imagens/facebook-logo.png" alt="facebook">
-                <img src="imagens/twitter-logo.png" alt="twitter">
-                <img id="instagram" src="imagens/instagram-logo.png" alt="instagram">
+                <a href="#"><img src="imagens/facebook-logo.png" alt="facebook"></a>
+                <a href="#"><img src="imagens/twitter-logo.png" alt="twitter"></a>
+                <a href="#"><img id="instagram" src="imagens/instagram-logo.png" alt="instagram"></a>
             </section>
         </div>
         <div>
@@ -30,10 +30,11 @@
                 <li><a href="#">Cardápio</a></li>
                 <li><a href="#">Quem somos</a></li>
                 <li><a href="#">Notícias</a></li>
-                <li id="contato"><a href="#">Contato</a></li>
+                <li id="contato" onclick="contatoLink()"><a id="contatolink" href="#">Contato</a></li>
             </ul>
         </menu>
-    </header> 
+    </header>
+
     <main>
         <div id="cab">
             <section>
@@ -116,9 +117,11 @@
             </section>
         </div>
     </main>
+
     <footer>
         <p>Site feito por <a href="https://github.com/DouglasSvAlves" target="_blank" rel="external">Douglas Silva Alves</a> | Modelo do <a href="https://www.cursoemvideo.com" target="_blank" rel="external">Curso em Vídeo</a></p>
     </footer>
+    
     <script>
         function mudouTamanho() {
             if (window.innerWidth >= 768) {

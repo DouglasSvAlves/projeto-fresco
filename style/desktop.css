@@ -39,6 +39,10 @@ header > menu#itens > ul > li#contato { /*Ele está aqui em cima por conta do sc
     margin-right: 30px;
 }
 
+header > div {
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.178);
+}
+
 header > div#redesocial {
     background-color: var(--cor1);
     height: 27px;
@@ -50,25 +54,31 @@ header > div#redesocial > section {
     margin: auto;
 }
 
-header > div#redesocial > section > img {
+header > div#redesocial > section > a > img {
     width: 17px;
     padding: 0px;
     margin-top: 5px;
     margin-right: 10px;
 }
 
-header > div#redesocial > section > img#instagram {
+header > div#redesocial > section > a > img#instagram {
     margin-right: 25px;
 }
 
+header > div#redesocial > section > a > img:hover {
+    transform: translate(-1px,-1px);
+    transition: 0.2s;
+}
+
 header > menu#itens {
-    text-align: right;
-    height: 49px;
+    
+    height: 48px;
     margin-top: -48px;
     box-shadow: none;
 }
 
 header > menu#itens > ul {
+    text-align: right;
     max-width: 1250px;
     margin: auto;
 }
@@ -76,8 +86,13 @@ header > menu#itens > ul {
 header > menu#itens > ul > li{
     display: inline;
     border: none;
-    background-color: white;
+    background-color: transparent;
     font-size: 1.1em;
+}
+
+header > menu#itens > ul > li#contato:hover {
+    background-color: var(--cor2);
+    cursor: pointer;
 }
 
 header > menu#itens > ul > li#contato > a {
@@ -95,6 +110,50 @@ header > div > section {
     text-align: right;
 }
 
-header > div > a {
-    
+header > div > a > img {
+    width: 120px;
+    margin-left: 100px;
+}
+
+main > div#cab, main > div#cab > section {
+    height: 725px;
+}
+
+main > div#cab > section > p#h1 > img {
+    margin-bottom: -72px;
+}
+
+main > div#cab > section > p#h1 {
+    padding-top: 120px;
+    font-size: 6.5em;
+}
+
+main > div#cab > section > p#h2 {
+    font-size: 2.3em;
+}
+
+main > div#cab > section > p#h3 {
+    font-size: 1.9em;
+}
+
+main > section#horario {
+    width: 30%;
+    float: right;
+}
+
+main > section#horario div {
+    width: 100%;
+    float: right;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+    header > div > a > img {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    header > div > a > img {
+        margin-left: 250px;
+    }
 }
