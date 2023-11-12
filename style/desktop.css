@@ -44,6 +44,7 @@ header > div {
 }
 
 header > div#redesocial {
+    display: block;
     background-color: var(--cor1);
     height: 27px;
 }

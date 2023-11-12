@@ -40,6 +40,10 @@ p::selection , h1::selection , h2::selection , h3::selection, a::selection  { /*
     color: var(--cor3);
 }
 
+header > div#redesocial {
+    display: none;
+}
+
 header div {
     background-color: white;
     width: 100%;
