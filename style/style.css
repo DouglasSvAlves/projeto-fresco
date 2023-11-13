@@ -339,7 +339,7 @@ main > div#bgcardapio > div#cardapiolink > a {
     border-radius: 5px;
 }
 
-main > div#fotoHH {
+main > div#happy > div#fotoHH {
     background-image: url(../imagens/foto-happy.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -351,14 +351,14 @@ main > div#fotoHH {
 }
 
 
-main > section#happyH > i {
+main > div#happy > section#happyH > i {
     display: block;
     text-align: center;
     font-size: 100px;
     margin-top: 50px;
 }
 
-main > section#happyH > p {
+main > div#happy > section#happyH > p {
     font-family: var(--font-principal);
     text-align: center;
     font-size: 1.1em;
@@ -366,7 +366,7 @@ main > section#happyH > p {
     margin: 15px;
 }
 
-main > section#happyH > h1 {
+main > div#happy > section#happyH > h1 {
     font-family: var(--font-logo);
     color: var(--cor2);
     text-align: center;
@@ -375,7 +375,7 @@ main > section#happyH > h1 {
     margin: 15px;
 }
 
-main > section#happyH > h2 {
+main > div#happy > section#happyH > h2 {
     font-family: var(--font-principal);
     color: var(--cor3);
     text-align: center;
@@ -384,7 +384,7 @@ main > section#happyH > h2 {
     margin: 25px;
 }
 
-main >section#happyH > a {
+main > div#happy > section#happyH > a {
     display: block;
     text-decoration: none;
     font-family: var(--font-principal);
@@ -394,7 +394,7 @@ main >section#happyH > a {
     margin: 40px;
 }
 
-main > section#happyH > a:hover {
+main > div#happy > section#happyH > a:hover {
 color: var(--cor3);
 transition: 0.3s;
 }
