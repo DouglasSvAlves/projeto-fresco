@@ -399,7 +399,7 @@ color: var(--cor3);
 transition: 0.3s;
 }
 
-main > section#depoimentos > span {
+main > section#depoimentos > div#grad00 > div.grad00 > span {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -408,7 +408,7 @@ main > section#depoimentos > span {
     transform: scale(-1, 1); /* Inverte/Espelha o texto*/
 }
 
-main > section#depoimentos > h1 {
+main > section#depoimentos > div#grad00 > div.grad00 > h1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -419,20 +419,20 @@ main > section#depoimentos > h1 {
     margin-top: -140px;
 }
 
-main > section#depoimentos > div.depimg {
+div.grad01 > div.depimg {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 70px;
 }
 
-main > section#depoimentos > div.depimg > img {
+div.grad01 > div.depimg > img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
 
-main > section#depoimentos > p {
+div.grad01 > p {
     font-family: var(--font-principal);
     text-align: center;
     color: #464543;
@@ -441,12 +441,12 @@ main > section#depoimentos > p {
     margin: 0px 80px;
 }
 
-main > section#depoimentos > p.depnome {
+div.grad01 > p.depnome {
     margin-top: 30px;
     font-size: 1.2em;
 }
 
-main > section#depoimentos > p.depsocial {
+div.grad01 > p.depsocial {
     color: #8d8c88;
     font-size: 0.9em;
     font-weight: 600;
