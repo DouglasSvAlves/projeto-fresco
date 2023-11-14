@@ -26,7 +26,7 @@ html {
     background-attachment: fixed;
     background-color: white;
     background-image: url(../imagens/folha-fundo-02.jpg);
-    background-position: left center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -156,7 +156,7 @@ section#horario {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 92vw;
+    width: 92%;
     height: 625px;
     margin: auto;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.411);
@@ -164,7 +164,7 @@ section#horario {
 
 section#horario div {
     background-image: linear-gradient(to top, rgba(34, 34, 34, 0.829), transparent 80%);
-    width: 92vw;
+    width: 100%;
     height: 625px;
     margin: auto;
 }
@@ -191,7 +191,7 @@ main div#pizza {
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 80vw;
+    width: 80%;
     height: 800px;
     margin: 40px;
 }
@@ -200,7 +200,7 @@ main > div#grade section#historia > p#cima {
     font-family: var(--font-principal);
     font-weight: 600;
     font-size: 1.1em;
-    padding: 20px 45px;
+    margin: 20px 25px 20px 0px;
 }
 
 main > div#grade > section#historia > h1 {
@@ -246,7 +246,7 @@ main > div#grade > section#historia > a:hover {
 
 main > div#bgcardapio {
     background-color: var(--cor0);
-    height: 1200px;
+    height: 1100px;
     margin-top: 120px;
 }
 
@@ -280,7 +280,7 @@ main > div#bgcardapio > section#cardapio > h2 {
 main > div#bgcardapio > section#cardapio > div#d01 > img.catalago, main > div#bgcardapio > section#cardapio > div#d02 > img.catalago {
     width: 100px;
     padding-top: 10px;
-    padding-left: 55px;
+    padding-left: 30px;
     user-select:none;
 }
 
@@ -290,7 +290,7 @@ main > div#bgcardapio > section#cardapio > div#d01 > h3, main > div#bgcardapio >
     color: var(--cor3);
     font-size: 1.3em;
     font-weight: 600;
-    padding-left: 170px;
+    padding-left: 140px;
     margin-top: -30px;
     margin-bottom: 100px; 
     margin-right: 110px;
@@ -302,7 +302,7 @@ main > div#bgcardapio > section#cardapio > div#d01 > p, main > div#bgcardapio > 
     font-size: 0.9em;
     color: var(--cor3);
     top: -90px;
-    padding-left: 170px;
+    padding-left: 140px;
     margin-right: 115px;
 }
 
@@ -344,7 +344,7 @@ main > div#happy > div#fotoHH {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 92vw;
+    width: 92%;
     height: 250px;
     margin: auto;
     margin-top: 65px;
@@ -395,8 +395,8 @@ main > div#happy > section#happyH > a {
 }
 
 main > div#happy > section#happyH > a:hover {
-color: var(--cor3);
-transition: 0.3s;
+    color: var(--cor3);
+    transition: 0.3s;
 }
 
 main > section#depoimentos > div#grad00 > div.grad00 > span {
@@ -438,7 +438,7 @@ div.grad01 > p {
     color: #464543;
     font-size: 1.1em;
     line-height: 30px;
-    margin: 0px 80px;
+    margin: 0px 40px;
 }
 
 div.grad01 > p.depnome {
@@ -505,6 +505,7 @@ footer > p {
     color: white;
     font-family: var(--font-principal);
     text-align: center;
+    font-size: 3vw;
     padding-top: 8px;
 }
 

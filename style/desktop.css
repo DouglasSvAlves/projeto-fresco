@@ -263,13 +263,18 @@ main > section#depoimentos > div#grad01{
 }
 
 main > section#depoimentos > div#grad00 > div.grad00 > span {
-    font-size: 40em;
-    margin-top: -150px;
+    font-size: 30em;
+    margin-top: -60px;
 }
 
 main > section#depoimentos > div#grad00 > div.grad00 > h1 {
-    font-size: 2.6em;
-    margin-top: -350px;
+    font-size: 2.3em;
+    margin-top: -250px;
+}
+
+
+footer > p {
+    font-size: 1em;
 }
 
 
@@ -277,7 +282,12 @@ main > section#depoimentos > div#grad00 > div.grad00 > h1 {
     header > div > a > img {
         margin-left: 60px;
     }
-}
+
+   main > div#grade {
+    margin-bottom: 230px;
+   }
+
+}   
 
 @media screen and (min-width: 1100px) and (max-width: 1500px){
     main > div#bgcardapio > div#cardapiolink {
