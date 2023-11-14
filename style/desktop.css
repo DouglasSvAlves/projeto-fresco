@@ -208,6 +208,10 @@ main > div#bgcardapio > section#cardapio > div#d02 {
     margin: auto;
 }
 
+main > div#bgcardapio > section#cardapio > div#d01 > p, main > div#bgcardapio > section#cardapio > div#d02 > p {
+    margin-right: 0px;
+}
+
 main > div#bgcardapio > div#cardapiolink {
     display: flex;
     align-items: center;
@@ -227,6 +231,7 @@ main > div#happy > div#fotoHH {
     height: 460px;
     margin-left: 30px;
     margin-top: -50px;
+    margin-right: 10px;
     width: 47%;
 }
 
@@ -272,6 +277,17 @@ main > section#depoimentos > div#grad00 > div.grad00 > h1 {
     margin-top: -250px;
 }
 
+main > div#imgtel > section > i#telefone {
+    font-size: 4em;
+}
+
+main > div#imgtel > section > p {
+    font-size: 1.8em;
+}
+
+main > div#imgtel > section > p#tel {
+    font-size: 5em;
+}
 
 footer > p {
     font-size: 1em;
@@ -286,6 +302,14 @@ footer > p {
    main > div#grade {
     margin-bottom: 230px;
    }
+
+   main > div#bgcardapio > div#cardapiolink {
+    margin-top: 300px;
+    }
+
+    main > div#bgcardapio {
+        height: 725px;
+    }
 
 }   
 

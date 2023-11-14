@@ -200,7 +200,7 @@ main > div#grade section#historia > p#cima {
     font-family: var(--font-principal);
     font-weight: 600;
     font-size: 1.1em;
-    margin: 20px 25px 20px 0px;
+    margin: 10px 25px 20px 25px;
 }
 
 main > div#grade > section#historia > h1 {
@@ -208,7 +208,8 @@ main > div#grade > section#historia > h1 {
     color: var(--cor2);
     font-weight: normal;
     font-size: 4em;
-    padding-left: 45px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding-bottom: 10px;
 }
 
@@ -217,7 +218,8 @@ main > div#grade section#historia > h2 {
     color: var(--cor3);
     font-size: 2.2em;
     font-weight: 600;
-    padding-left: 45px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding-bottom: 30px;
 }
 
@@ -227,7 +229,8 @@ main section#historia > p {
     width: 82%;
     font-size: 0.9em;
     padding-bottom: 20px;
-    padding-left: 45px;
+    margin-left: 25px;
+    margin-right: 25px;
     line-height: 25px;
 }
 
@@ -236,7 +239,7 @@ main > div#grade > section#historia > a {
     font-family: var(--font-principal);
     font-size: 0.9em;
     color: var(--cor1);
-    padding-left: 45px;
+    margin-left: 25px;
 }
 
 main > div#grade > section#historia > a:hover {
@@ -246,7 +249,7 @@ main > div#grade > section#historia > a:hover {
 
 main > div#bgcardapio {
     background-color: var(--cor0);
-    height: 1100px;
+    height: 1000px;
     margin-top: 120px;
 }
 
@@ -293,7 +296,7 @@ main > div#bgcardapio > section#cardapio > div#d01 > h3, main > div#bgcardapio >
     padding-left: 140px;
     margin-top: -30px;
     margin-bottom: 100px; 
-    margin-right: 110px;
+    margin-right: 85px;
 }
 
 main > div#bgcardapio > section#cardapio > div#d01 > p, main > div#bgcardapio > section#cardapio > div#d02 > p {
@@ -303,7 +306,7 @@ main > div#bgcardapio > section#cardapio > div#d01 > p, main > div#bgcardapio > 
     color: var(--cor3);
     top: -90px;
     padding-left: 140px;
-    margin-right: 115px;
+    margin-right: 40px;
 }
 
 main > div#bgcardapio > section#cardapio > div#d01 > p.preco, main > div#bgcardapio > section#cardapio > div#d02 > p.preco  {
@@ -312,7 +315,7 @@ main > div#bgcardapio > section#cardapio > div#d01 > p.preco, main > div#bgcarda
     font-size: 2em;
     font-weight: bolder;
     text-align: right;
-    margin-right: 40px;
+    margin-right: 10px;
     margin-top: -50px;
 }
 
@@ -473,18 +476,18 @@ main > div#imgtel > section > i#telefone {
     position: relative;
     color: var(--cor1);
     text-align: center;
-    font-size: 3.5em;
+    font-size: 3em;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(270deg); /*Para usar mais de um transform e preciso juntar eles e separar com espaços, se colocar uma virgula não funciona*/
 }
 
 
-main > div#imgtel > section> p {
+main > div#imgtel > section > p {
     position: relative;
     font-family: var(--font-logo);
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
     top: 32%;
 }
@@ -492,7 +495,7 @@ main > div#imgtel > section> p {
 main > div#imgtel > section > p#tel {
     font-family: var(--font-principal);
     font-weight: bolder;
-    font-size: 5em;
+    font-size: 3.5em;
 }
 
 footer {
