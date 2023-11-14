@@ -188,12 +188,12 @@ section#horario p {
 
 main div#pizza {
     background-image: url(../imagens/pizza-pq.jpg);
-    background-position: left bottom;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: contain;
     width: 80%;
     height: 800px;
-    margin: 40px;
+    margin: auto;
 }
 
 main > div#grade section#historia > p#cima {

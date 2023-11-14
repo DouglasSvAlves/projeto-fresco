@@ -137,87 +137,6 @@ main > div#cab > section > p#h3 {
     font-size: 1.9em;
 }
 
-main > div#grade {
-    max-width: 1200px;
-    margin: auto;
-}
-
-main > div#grade > section#horario {
-    width: 30%;
-    height: 50%;
-    margin: auto;
-    margin-right: 20px;
-    float: right;
-}
-
-main > div#grade > section#horario > div {
-    width: 100%;
-    float: right;
-}
-
-main > div#grade > section#horario > div > p#hora {
-    padding-top: 450px;
-    font-size: 3em;
-}
-
-main > div#grade > section#horario > div > p {
-    font-size: 1.1em;
-}
-
-main > div#grade > div#pizza {
-    display: inline-block;
-    width: 30%;
-    height: 600px;
-    margin: auto;
-    background-size: contain;
-}
-
-main > div#grade > section#historia {
-    width: 35%;
-    margin: auto;
-    margin-right: 17px;
-    float: left;
-}
-
-main > div#grade > section#historia > p, main > div#grade > section#historia > a {
-    font-size: 1em;
-}
-
-main > div#bgcardapio {
-    height: 800px;
-}
-
-main > div#bgcardapio > section#cardapio {
-    max-width: 1200px;
-    margin: auto;
-}
-
-main > div#bgcardapio > section#cardapio > h1 {
-    font-size: 3.1em;
-}
-
-main > div#bgcardapio > section#cardapio > div#d01 {
-    width: 50%;
-    margin: auto;
-    float: left;
-}
-
-main > div#bgcardapio > section#cardapio > div#d02 {
-    width: 50%;
-    float: right;
-    margin: auto;
-}
-
-main > div#bgcardapio > section#cardapio > div#d01 > p, main > div#bgcardapio > section#cardapio > div#d02 > p {
-    margin-right: 0px;
-}
-
-main > div#bgcardapio > div#cardapiolink {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 400px;
-}
 
 main > div#happy {
     height: 550px;
@@ -251,32 +170,6 @@ main > div#happy > section#happyH > p {
     font-size: 1.2em;
 }
 
-main > section#depoimentos {
-    max-width: 1200px;
-    margin: auto;
-    height: 800px;
-}
-
-main > section#depoimentos > div#grad00 {
-    float: left;
-    width: 50%;
-}
-
-main > section#depoimentos > div#grad01{
-    float: right;
-    width: 50%;
-}
-
-main > section#depoimentos > div#grad00 > div.grad00 > span {
-    font-size: 30em;
-    margin-top: -60px;
-}
-
-main > section#depoimentos > div#grad00 > div.grad00 > h1 {
-    font-size: 2.3em;
-    margin-top: -250px;
-}
-
 main > div#imgtel > section > i#telefone {
     font-size: 4em;
 }
@@ -294,26 +187,175 @@ footer > p {
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1100px) {
+@media screen and (min-width: 768px) and (max-width: 1110px) {
     header > div > a > img {
         margin-left: 60px;
     }
 
-   main > div#grade {
-    margin-bottom: 230px;
-   }
-
-   main > div#bgcardapio > div#cardapiolink {
-    margin-top: 300px;
+    main > div#grade {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    main > div#grade > section#horario {
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        margin-right: 20px;
+        float: right;
+    }
+    
+    main > div#grade > section#horario > div {
+        width: 100%;
+        float: right;
+    }
+    
+    main > div#grade > section#horario > div > p#hora {
+        padding-top: 450px;
+        font-size: 3em;
+    }
+    
+    main > div#grade > section#horario > div > p {
+        font-size: 1.1em;
     }
 
-    main > div#bgcardapio {
-        height: 725px;
+    main > div#grade {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    main > div#grade > div#pizza {
+        display: inline-block;
+        width: 45%;
+        height: 600px;
+        margin: auto;
+        background-size: contain;
     }
 
+    main > div#grade > section#historia {
+        margin: 120px 70px;
+    }
+
+    main > div#bgcardapio > section#cardapio{
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    div.grad01 > p {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
 }   
 
-@media screen and (min-width: 1100px) and (max-width: 1500px){
+@media screen and (min-width: 1110px) and (max-width: 1500px){
+    main > div#grade {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    main > div#grade > section#horario {
+        width: 30%;
+        height: 50%;
+        margin: auto;
+        margin-right: 20px;
+        float: right;
+    }
+    
+    main > div#grade > section#horario > div {
+        width: 100%;
+        float: right;
+    }
+    
+    main > div#grade > section#horario > div > p#hora {
+        padding-top: 450px;
+        font-size: 3em;
+    }
+    
+    main > div#grade > section#horario > div > p {
+        font-size: 1.1em;
+    }
+    
+    main > div#grade > div#pizza {
+        display: inline-block;
+        width: 30%;
+        height: 600px;
+        margin: auto;
+        background-size: contain;
+    }
+    
+    main > div#grade > section#historia {
+        width: 35%;
+        margin: auto;
+        margin-right: 17px;
+        float: left;
+    }
+    
+    main > div#grade > section#historia > p, main > div#grade > section#historia > a {
+        font-size: 1em;
+    }
+    
+    main > div#bgcardapio {
+        height: 800px;
+    }
+    
+    main > div#bgcardapio > section#cardapio {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    main > div#bgcardapio > section#cardapio > h1 {
+        font-size: 3.1em;
+    }
+    
+    main > div#bgcardapio > section#cardapio > div#d01 {
+        width: 50%;
+        margin: auto;
+        float: left;
+    }
+    
+    main > div#bgcardapio > section#cardapio > div#d02 {
+        width: 50%;
+        float: right;
+        margin: auto;
+    }
+    
+    main > div#bgcardapio > section#cardapio > div#d01 > p, main > div#bgcardapio > section#cardapio > div#d02 > p {
+        margin-right: 0px;
+    }
+    
+    main > div#bgcardapio > div#cardapiolink {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 400px;
+    }
+
+    main > section#depoimentos {
+        max-width: 1200px;
+        margin: auto;
+        height: 800px;
+    }
+    
+    main > section#depoimentos > div#grad00 {
+        float: left;
+        width: 50%;
+    }
+    
+    main > section#depoimentos > div#grad01{
+        float: right;
+        width: 50%;
+    }
+    
+    main > section#depoimentos > div#grad00 > div.grad00 > span {
+        font-size: 30em;
+        margin-top: -60px;
+    }
+    
+    main > section#depoimentos > div#grad00 > div.grad00 > h1 {
+        font-size: 2.3em;
+        margin-top: -250px;
+    }
+
     main > div#bgcardapio > div#cardapiolink {
         margin-top: 300px;
     }

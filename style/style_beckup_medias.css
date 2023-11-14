@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) and (max-width: 1110px) {
+    header > div > a > img {
+        margin-left: 60px;
+    }
+
+   main > div#grade {
+    margin-bottom: 230px;
+   }
+
+   main > div#bgcardapio > div#cardapiolink {
+    margin-top: 300px;
+    }
+
+    main > div#bgcardapio {
+        height: 725px;
+    }
+
+}   
+
+@media screen and (min-width: 1110px) and (max-width: 1500px){
+    main > div#bgcardapio > div#cardapiolink {
+        margin-top: 300px;
+    }
+
+    main > div#bgcardapio {
+        height: 725px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    header > div > a > img {
+        margin-left: 250px;
+    }
+
+    main > div#bgcardapio > div#cardapiolink {
+        margin-top: 300px;
+    }
+
+    main > div#bgcardapio {
+        height: 725px;
+    }
+}
