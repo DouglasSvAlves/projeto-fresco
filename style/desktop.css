@@ -247,7 +247,7 @@ footer > p {
     }
 }   
 
-@media screen and (min-width: 1110px) and (max-width: 1500px){
+@media screen and (min-width: 1110px) {
     main > div#grade {
         max-width: 1200px;
         margin: auto;
