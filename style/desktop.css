@@ -32,11 +32,6 @@ menu#itens {
 
 header > menu#itens > ul > li#contato { /*Ele está aqui em cima por conta do script de retirar ele no mobile*/
     display: inline;
-    background-color: var(--cor1);
-    padding: 11px 40px;
-    border-radius: 25px;
-    margin-right: auto;
-    margin-right: 30px;
 }
 
 header > div {
@@ -91,13 +86,18 @@ header > menu#itens > ul > li{
     font-size: 1.1em;
 }
 
-header > menu#itens > ul > li#contato:hover {
+header > menu#itens > ul > li#contato > a#contatolink:hover {
     background-color: var(--cor2);
     cursor: pointer;
 }
 
-header > menu#itens > ul > li#contato > a {
+header > menu#itens > ul > li#contato > a#contatolink { /*O botão tem que ser feito no link (a) para que ele inteiro seja interativo*/
     color: white;
+    background-color: var(--cor1);
+    padding: 11px 40px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-right: 30px;
 }
 
 header > div {
